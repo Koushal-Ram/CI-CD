@@ -22,3 +22,5 @@ test('test2', async ({ page }) => {
   await page.getByRole('button', { name: 'Post', exact: true }).click();
   await page.locator('#heart').first().click();
 });
+
+//added artifacts step in playwright.yml
